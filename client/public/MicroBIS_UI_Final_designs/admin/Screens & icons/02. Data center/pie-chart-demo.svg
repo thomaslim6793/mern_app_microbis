@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="448.001" height="286" viewBox="0 0 448.001 286">
+  <g id="Group_239" data-name="Group 239" transform="translate(-789 -642)">
+    <g id="Ring_Chart15" data-name="Ring Chart15" transform="translate(0 -80)">
+      <path id="Path_41" data-name="Path 41" d="M0-143A143,143,0,0,1,136-44.189,143,143,0,0,1,84.053,115.689a143,143,0,0,1-168.107,0l41.145-56.631a73,73,0,0,0,85.817,0A73,73,0,0,0,69.427-22.558,73,73,0,0,0,0-73Z" transform="translate(932 865)" fill="#1f78b4"/>
+      <path id="Path_42" data-name="Path 42" d="M-84.053,115.689A143,143,0,0,1-143,0,143,143,0,0,1-84.053-115.689l41.145,56.631A73,73,0,0,0-73,0,73,73,0,0,0-42.908,59.058Z" transform="translate(932 865)" fill="#a6cee3"/>
+      <path id="Path_43" data-name="Path 43" d="M-84.053-115.689A143,143,0,0,1,0-143v70A73,73,0,0,0-42.908-59.058Z" transform="translate(932 865)" fill="#b2df8a"/>
+    </g>
+    <path id="Union_1" data-name="Union 1" d="M15749-4370a6,6,0,0,1-6-6v-5.157l-4.722-1.917a1,1,0,0,1,0-1.853l4.722-1.919V-4392a6,6,0,0,1,6-6h160a6,6,0,0,1,6,6v16a6,6,0,0,1-6,6Z" transform="translate(-14678 5161)"/>
+    <text id="Citrobacter_freundii:_60_" data-name="Citrobacter freundii: 60%" transform="translate(1151 781)" fill="#fff" font-size="15" font-family="SFProDisplay-Regular, SF Pro Display"><tspan x="-78.259" y="0">Citrobacter freundii: 60%</tspan></text>
+  </g>
+</svg>

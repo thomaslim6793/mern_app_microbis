@@ -1,0 +1,39 @@
+/* client/src/components/ImageSlider/ImageSlider.module.css */
+
+.sliderContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.sliderImage {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  opacity: 1;
+  transition: opacity 1s ease-in-out; /* Smooth fade transition */
+}
+
+.logoImage {
+  width: 30%; /* Scale the logo to half its original size */
+  height: auto;
+}
+
+.fade {
+  opacity: 0; /* Make the image transparent when fading */
+}
+
+.logoText {
+  margin-top: 10px;
+  font-size: 2.5rem;
+  color: #333;
+  text-align: center;
+  font-weight: bold;
+  transition: opacity 1s ease-in-out; /* Apply the same fade transition to the text */
+  margin-top: 50px;
+}

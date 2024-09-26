@@ -1,0 +1,20 @@
+/* client/src/main.css */
+
+/* Reset body margin and padding */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;  /* Ensures body stretches to fit the full webpage */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

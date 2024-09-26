@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="629" height="308" viewBox="0 0 629 308">
+  <defs>
+    <filter id="Rectangle_54" x="564" y="78" width="30" height="30" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Column_Chart1" data-name="Column Chart1" transform="translate(14850 -4465)">
+    <g id="Chart" transform="translate(0 -8)">
+      <g id="m1">
+        <rect id="Rectangle_99" data-name="Rectangle 99" width="25.696" height="55.714" transform="translate(-14850 4703.286)" fill="#cb6d00"/>
+        <rect id="Rectangle_100" data-name="Rectangle 100" width="25.696" height="128.571" transform="translate(-14798.608 4630.429)" fill="#cb6d00"/>
+        <rect id="Rectangle_101" data-name="Rectangle 101" width="25.696" height="106" transform="translate(-14747.218 4653)" fill="#cb6d00"/>
+        <rect id="Rectangle_102" data-name="Rectangle 102" width="25.696" height="52.714" transform="translate(-14695.826 4706.286)" fill="#cb6d00"/>
+        <rect id="Rectangle_103" data-name="Rectangle 103" width="25.696" height="122.571" transform="translate(-14644.435 4636.429)" fill="#cb6d00"/>
+        <rect id="Rectangle_104" data-name="Rectangle 104" width="25.696" height="191.286" transform="translate(-14593.044 4567.714)" fill="#cb6d00"/>
+        <rect id="Rectangle_105" data-name="Rectangle 105" width="25.696" height="111.429" transform="translate(-14541.652 4647.571)" fill="#cb6d00"/>
+        <rect id="Rectangle_106" data-name="Rectangle 106" width="25.696" height="167.143" transform="translate(-14490.261 4591.857)" fill="#cb6d00"/>
+        <rect id="Rectangle_107" data-name="Rectangle 107" width="25.696" height="211.857" transform="translate(-14438.869 4547.143)" fill="#cb6d00"/>
+        <rect id="Rectangle_108" data-name="Rectangle 108" width="25.696" height="132.286" transform="translate(-14387.479 4626.714)" fill="#cb6d00"/>
+        <rect id="Rectangle_109" data-name="Rectangle 109" width="25.696" height="152.429" transform="translate(-14336.087 4606.571)" fill="#cb6d00"/>
+        <rect id="Rectangle_110" data-name="Rectangle 110" width="25.696" height="258" transform="translate(-14284.695 4501)" fill="#cb6d00"/>
+      </g>
+    </g>
+    <g id="X_Axis" data-name="X Axis" transform="translate(12.848 6)">
+      <text id="Jan" transform="translate(-14850 4764)" fill="#444" font-size="12" font-family="ArialMT, Arial"><tspan x="-9.674" y="0">Jan</tspan></text>
+      <text id="Feb" transform="translate(-14798.608 4764)" fill="#444" font-size="12" font-family="ArialMT, Arial"><tspan x="-10.339" y="0">Feb</tspan></text>
+      <text id="Mar" transform="translate(-14747.218 4764)" fill="#444" font-size="12" font-family="ArialMT, Arial"><tspan x="-10.333" y="0">Mar</tspan></text>
+      <text id="Apr" transform="translate(-14695.826 4764)" fill="#444" font-size="12" font-family="ArialMT, Arial"><tspan x="-9.337" y="0">Apr</tspan></text>
+      <text id="May" transform="translate(-14644.435 4764)" fill="#444" font-size="12" font-family="ArialMT, Arial"><tspan x="-11.335" y="0">May</tspan></text>
+      <text id="Jun" transform="translate(-14593.044 4764)" fill="#444" font-size="12" font-family="ArialMT, Arial"><tspan x="-9.674" y="0">Jun</tspan></text>
+      <text id="Jul" transform="translate(-14541.652 4764)" fill="#444" font-size="12" font-family="ArialMT, Arial"><tspan x="-7.67" y="0">Jul</tspan></text>
+      <text id="Aug" transform="translate(-14490.261 4764)" fill="#444" font-size="12" font-family="ArialMT, Arial"><tspan x="-10.676" y="0">Aug</tspan></text>
+      <text id="Sep" transform="translate(-14438.869 4764)" fill="#444" font-size="12" font-family="ArialMT, Arial"><tspan x="-10.676" y="0">Sep</tspan></text>
+      <text id="Oct" transform="translate(-14387.479 4764)" fill="#444" font-size="12" font-family="ArialMT, Arial"><tspan x="-9.334" y="0">Oct</tspan></text>
+      <text id="Nov" transform="translate(-14336.087 4764)" fill="#444" font-size="12" font-family="ArialMT, Arial"><tspan x="-10.67" y="0">Nov</tspan></text>
+      <text id="Dec" transform="translate(-14284.695 4764)" fill="#444" font-size="12" font-family="ArialMT, Arial"><tspan x="-10.67" y="0">Dec</tspan></text>
+    </g>
+    <g id="Column_Chart2" data-name="Column Chart2" transform="translate(0 -8)">
+      <g id="Chart-2" data-name="Chart" transform="translate(-14850 4473)">
+        <g id="m1-2" data-name="m1">
+          <rect id="Rectangle_111" data-name="Rectangle 111" width="13" height="55.714" transform="translate(0 230.286)" fill="#1fa9b4"/>
+          <rect id="Rectangle_112" data-name="Rectangle 112" width="13" height="148.571" transform="translate(51.6 137.429)" fill="#1fa9b4"/>
+          <rect id="Rectangle_113" data-name="Rectangle 113" width="13" height="130" transform="translate(102.431 156)" fill="#1fa9b4"/>
+          <rect id="Rectangle_114" data-name="Rectangle 114" width="13" height="55.714" transform="translate(153.645 230.286)" fill="#1fa9b4"/>
+          <rect id="Rectangle_115" data-name="Rectangle 115" width="13" height="122.571" transform="translate(204.862 163.429)" fill="#1fa9b4"/>
+          <rect id="Rectangle_116" data-name="Rectangle 116" width="13" height="204.286" transform="translate(256.076 81.714)" fill="#1fa9b4"/>
+          <rect id="Rectangle_117" data-name="Rectangle 117" width="13" height="111.429" transform="translate(307.291 174.571)" fill="#1fa9b4"/>
+          <rect id="Rectangle_118" data-name="Rectangle 118" width="13" height="167.143" transform="translate(358.507 118.857)" fill="#1fa9b4"/>
+          <rect id="Rectangle_119" data-name="Rectangle 119" width="13" height="222.857" transform="translate(409.722 63.143)" fill="#1fa9b4"/>
+          <rect id="Rectangle_120" data-name="Rectangle 120" width="13" height="204.286" transform="translate(460.938 81.714)" fill="#1fa9b4"/>
+          <rect id="Rectangle_121" data-name="Rectangle 121" width="13" height="163.429" transform="translate(513.768 122.571)" fill="#1fa9b4"/>
+          <rect id="Rectangle_122" data-name="Rectangle 122" width="13" height="286" transform="translate(565.367)" fill="#1fa9b4"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_181" data-name="Group 181" transform="translate(-15441 4089)">
+      <rect id="Rectangle_58" data-name="Rectangle 58" width="102" height="51" rx="6" transform="translate(1118 400)"/>
+      <g transform="matrix(1, 0, 0, 1, 591, 376)" filter="url(#Rectangle_54)">
+        <g id="Rectangle_54-2" data-name="Rectangle 54" transform="translate(573 84)" stroke="#fff" stroke-width="3">
+          <rect width="12" height="12" rx="6" stroke="none"/>
+          <rect x="1.5" y="1.5" width="9" height="9" rx="4.5" fill="none"/>
+        </g>
+      </g>
+      <text id="Actual:_758" data-name="Actual: 758" transform="translate(1169 440)" fill="#fff" font-size="15" font-family="SFProDisplay-Regular, SF Pro Display"><tspan x="-36.346" y="0">Actual: 758</tspan></text>
+      <text id="Projected:_727" data-name="Projected: 727" transform="translate(1169 420)" fill="#fff" font-size="15" font-family="SFProDisplay-Regular, SF Pro Display"><tspan x="-45.604" y="0">Projected: 727</tspan></text>
+    </g>
+  </g>
+</svg>
