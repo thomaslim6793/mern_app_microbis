@@ -1,9 +1,8 @@
-// server/index.js
-
 require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
+const path = require('path');
 
 const app = express();
 
@@ -11,7 +10,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Routes
+// API Routes
 app.get('/api', (req, res) => {
   res.send('API is running...');
 });
@@ -24,6 +23,17 @@ mongoose
   })
   .then(() => console.log('MongoDB connected'))
   .catch((err) => console.error(err));
+
+// Serve React Frontend in Production
+if (process.env.NODE_ENV === 'production') {
+  // Serve static files from the React build folder
+  app.use(express.static(path.join(__dirname, 'client/build')));
+
+  // Catch-all route that sends back the React app for any route not handled by the API
+  app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+  });
+}
 
 // Start the Server
 const PORT = process.env.PORT || 5000;
