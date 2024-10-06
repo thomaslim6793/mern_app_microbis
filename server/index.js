@@ -27,11 +27,11 @@ mongoose
 // Serve React Frontend in Production
 if (process.env.NODE_ENV === 'production') {
   // Serve static files from the React build folder
-  app.use(express.static(path.join(__dirname, 'client/build')));
+  app.use(express.static(path.join(__dirname, 'client/dist')));
 
   // Catch-all route that sends back the React app for any route not handled by the API
   app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+    res.sendFile(path.resolve(__dirname, 'client', 'dist', 'index.html'));
   });
 }
 
