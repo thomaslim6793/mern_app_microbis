@@ -1,0 +1,57 @@
+/* Main container that holds the sidebar and content */
+.AMR_tests_Container {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+    width: 100%;   /* Full width */
+    overflow: hidden; /* Prevent overflow */
+  }
+  
+  /* Main content area next to the sidebar */
+  .mainContent {
+    flex-grow: 1; /* Take the remaining space */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center;     /* Center horizontally */
+    background-color: #f8f9fa; /* Light background color */
+    overflow-y: auto; /* Scroll if content overflows */
+  }
+  
+  /* Header for the main content area */
+  .mainHeading {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+    text-align: center;
+  }
+  
+  /* Container for the grid of buttons */
+  .buttonGrid {
+    display: flex;
+    flex-direction: column; /* Arrange buttons in a column */
+    gap: 20px; /* Spacing between buttons */
+    justify-content: center; /* Center buttons vertically */
+    align-items: center; /* Center buttons horizontally */
+    width: 100%; /* Ensure grid takes full width */
+  }
+  
+  /* Styling for the individual grid buttons */
+  .testButton {
+    padding: 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 100%;  /* Make buttons take the full column width */
+    max-width: 250px; /* Set a max width for buttons */
+    text-align: center;
+  }
+  
+  .testButton:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }

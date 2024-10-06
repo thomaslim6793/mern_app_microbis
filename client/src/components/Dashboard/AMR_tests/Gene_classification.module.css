@@ -1,0 +1,73 @@
+
+.dashboardContainer {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .mainContent {
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f9fa;
+    overflow-y: auto;
+  }
+  
+  .mainHeading {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .formContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .inputGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .submitButton {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    align-self: center;
+  }
+  
+  .submitButton:hover {
+    background-color: #0056b3;
+  }
+
+  /* Add container for the result */
+.resultContainer {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 600px;
+  text-align: left;
+}
+
+.resultContainer h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.loadingText {
+  margin-top: 20px;
+  color: #007bff;
+  font-size: 1.2rem;
+}

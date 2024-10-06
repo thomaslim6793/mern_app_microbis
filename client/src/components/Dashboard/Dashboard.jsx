@@ -1,18 +1,39 @@
-// client/src/components/Dashboard/Dashboard.js
-
+// client/src/components/Dashboard/Dashboard.jsx
 import React from 'react';
-import styles from './Dashboard.module.css'; // Import the CSS Module
+import { useNavigate } from 'react-router-dom';
+import styles from './Dashboard.module.css';
+import Sidebar from './Sidebar/Sidebar';
 
-function Dashboard() {
+const Dashboard = () => {
+  const navigate = useNavigate(); // Initialize the navigation hook
+
+  const handleBacterialIdentification = () => {
+    navigate('/dashboard/bacterial-identification'); // Navigate to the Bacterial Identification route
+  };
+
+  const handleAMRDetection = () => {
+    navigate('/dashboard/AMR-tests');
+  };
+
   return (
     <div className={styles.dashboardContainer}>
-      <h1 className={styles.heading}>Welcome to Your Dashboard</h1>
-      <p className={styles.description}>
-        This is where your laboratory assistant functionalities will reside.
-      </p>
-      {/* Add more features and components as needed */}
+      {/* Sidebar Component */}
+      <Sidebar />
+
+      {/* Main content area */}
+      <main className={styles.mainContent}>
+        <h1 className={styles.mainHeading}>Dashboard</h1>
+        <div className={styles.buttonGrid}>
+          <button className={styles.gridButton} onClick={handleBacterialIdentification}>
+            Bacterial Identification
+          </button>
+          <button className={styles.gridButton} onClick={handleAMRDetection}>
+            AMR Detection
+          </button>
+        </div>
+      </main>
     </div>
   );
-}
+};
 
 export default Dashboard;
